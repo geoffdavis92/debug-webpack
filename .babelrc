@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": { "browsers": ["last 2 versions and not dead and > 2%"] },
+        // Change to 'usage' or 'entry' depending on need
+        // Reference: https://babeljs.io/docs/en/babel-polyfill
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/react"
+  ]
+}
